@@ -1,4 +1,10 @@
 let circle = document.querySelector('#circle');
+const button = document.querySelector("#button");
+var tl = gsap.timeline();
+const svgelem = document.querySelector('svg');
+
+
+
 
 window.addEventListener('mousemove', function(details){
 		let x = details.clientX;
@@ -14,15 +20,16 @@ window.addEventListener('mousemove', function(details){
 
 // all the animation stuff
 
-const button = document.querySelector("#button");
 
 
 button.addEventListener('click', function(){
-	
+	tl.reverse(); // now to just reverse all the animations to load the final png, we can just reverse the animation using this reverse function
+	setTimeout(function(){
+		 svgelem.classList.add('animate');
+	}, 3500);
 });
 
 
-var tl = gsap.timeline();
 
 // gsap working, using the gsap file you will get an object and as such we can add animations using gsap
 // initial to final form basis, so add from to to using .
