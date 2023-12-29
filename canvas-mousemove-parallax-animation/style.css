@@ -1,0 +1,139 @@
+body {
+  background: #fff;
+  height: 100vh;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+#gallery {
+  height: 75vmax;
+  width: 90vmax;
+  position: relative;
+}
+
+.block {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  z-index: 1;
+}
+
+.block:hover {
+  z-index: 2;
+}
+
+.block:nth-child(1) {
+  top: -10%;
+  left: 5%;
+  background: url(./assets/4.\ 4.\ IMG-20231205-WA0002.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.block:nth-child(2) {
+  top: 7%;
+  left: 0%;
+  background: url(./assets/10.\ 10.\ IMG-20231124-WA0010.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 140px;
+}
+.block:nth-child(3) {
+  top: 15%;
+  left: 7%;
+  background: url(./assets/18.\ 18.\ IMG-20231113-WA0000.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 220px;
+  height: 200px;
+}
+/* .block:nth-child(4) {
+  top: 30%;
+  left: 5%;
+  background: url(./assets/11.\ 11.\ IMG-20231124-WA0009.jpg) no-repeat 50% 50%;
+  background-size: cover;
+} */
+/* .block:nth-child(5) {
+  top: 43%;
+  left: 0%;
+  background: url(./assets/12.\ 12.\ IMG-20231124-WA0008.jpg) no-repeat 50% 50%;
+  background-size: contain;
+  width: 220px;
+  height: 200px;
+} */
+.block:nth-child(5) {
+  top: 43%;
+  left: 0%;
+  background: url(./assets/15.\ 15.\ IMG-20231113-WA0002.jpg) no-repeat 50% 50%;
+  background-size: contain;
+  width: 220px;
+  height: 200px;
+}
+
+/* center stuff */
+.block:nth-child(20) {
+  top: 10%;
+  right: 40%;
+  background: url(./assets/21.\ 21.\ IMG-20231112-WA0010.jpg) no-repeat 50% 50%;
+  background-size: contain;
+  width: 350px;
+  height: 250px;
+}
+.block:nth-child(7) {
+  top: 20%;
+  right: 30%;
+  background: url(./assets/6.IMG_20231229_112911.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.block:nth-child(6) {
+  top: 0%;
+  right: 60%;
+  background: url(./assets/7.\ 7.\ IMG-20231124-WA0016.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.block:nth-child(13) {
+  top: 40%;
+  right: 57%;
+  background: url(./assets/20.\ 20.\ IMG-20231112-WA0004.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+/* now the right side stuff */
+.block:nth-child(10) {
+  top: 10;
+  right: 0%;
+  background: url(./assets/17.\ 17.\ IMG-20231113-WA0001.jpg) no-repeat 50% 50%;
+  background-size: contain;
+  width: 250px;
+  height: 180px;
+}
+.block:nth-child(8) {
+  top: 17.5%;
+  right: -11.8%;
+  background: url(./assets/1.\ 1.\ IMG-20231205-WA0004.jpg) no-repeat 50% 50%;
+  background-size: contain;
+}
+.block:nth-child(9) {
+  top: 10%;
+  right: 15%;
+  background: url(./assets/5.\ 5.\ IMG-20231205-WA0001.jpg) no-repeat 50% 50%;
+  background-size: contain;
+}
+.block:nth-child(11) {
+  top: 45%;
+  right: -10%;
+  background: url(./assets/3.\ 3.\ IMG-20231205-WA0005.jpg) no-repeat 50% 50%;
+  background-size: contain;
+  width: 200px;
+}
+.block:nth-child(12) {
+  top: 35%;
+  right: 5%;
+  background: url(./assets/23.\ 23.\ IMG-20231112-WA0000.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+}
+.block:nth-child(14) {
+  top: 35%;
+  right: -15%;
+  background: url(./assets/19.\ 19.\ IMG-20231112-WA0014.jpg) no-repeat 50% 50%;
+  background-size: contain;
+  height: 200px;
+}

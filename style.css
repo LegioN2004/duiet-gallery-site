@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -161,5 +162,13 @@ svg {
   to {
     stroke-dasharray: 600px;
   }
+  64% {
+    opacity: 0;
+  }
+  74% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
